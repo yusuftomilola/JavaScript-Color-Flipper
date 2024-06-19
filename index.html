@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Flipper</title>
+    <style>
+      #green {
+        background-color: green;
+      }
+
+      #red {
+        background-color: red;
+      }
+
+      #blue {
+        background-color: blue;
+      }
+
+      button {
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Color Flipper</h3>
+    <button id="green" onclick="handleColor('green')">Green</button>
+
+    <button id="red" onclick="handleColor('red')">Red</button>
+
+    <button id="blue" onclick="handleColor('blue')">Blue</button>
+
+    <button onclick="randomColor()">Random</button>
+    <script src="script.js"></script>
+  </body>
+</html>
